@@ -1,0 +1,4 @@
+{
+	"**/*.{js,ts,vue}": ["yarn lint", "yarn format", "yarn format_check"],
+	"**/*": "prettier --write --ignore-unknown"
+}

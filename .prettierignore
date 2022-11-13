@@ -1,0 +1,9 @@
+node_modules
+.husky
+.vscode
+deploy
+build
+dist
+*.cjs
+components.d.ts
+vite.config.ts
