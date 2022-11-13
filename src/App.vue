@@ -1,5 +1,4 @@
 <script setup lang="ts">
-	import HelloWorld from '@/components/HelloWorld.vue'
 	import viVn from 'ant-design-vue/es/locale/vi_VN'
 	import { RangePicker, ConfigProvider } from 'ant-design-vue'
 	import dayjs from 'dayjs'
@@ -31,7 +30,6 @@
 			/>
 		</a>
 	</div>
-	<HelloWorld msg="Vite + Vue" />
 	<config-provider :locale="viVn">
 		<range-picker />
 	</config-provider>

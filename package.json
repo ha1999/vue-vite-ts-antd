@@ -52,8 +52,7 @@
 		"pre-commit": "lint-staged"
 	},
 	"lint-staged": {
-		"*.ts": "eslint --fix",
-		"*.vue": "eslint --fix",
+		"*.{ts, vue}": "eslint --fix",
 		"**/*": "prettier --write --ignore-unknown"
 	}
 }
